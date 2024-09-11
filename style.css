@@ -8,4 +8,15 @@ a {
 }
 a:hover {
   color: black;
+}
+
+#jsdom {
+  padding: 100px 0;
+}
+#jsdom .chat {
+  border: 1px solid #151010;
+  background-color: #f8c471;
+  border-radius: 18px;
+  width: 530px;
+  height: 320px;
 }/*# sourceMappingURL=style.css.map */
