@@ -14,9 +14,50 @@ a:hover {
   padding: 100px 0;
 }
 #jsdom .chat {
-  border: 1px solid #151010;
   background-color: #f8c471;
-  border-radius: 18px;
-  width: 530px;
-  height: 320px;
+  border-radius: 16px;
+  padding: 25px;
+  width: 520px;
+  height: 350px;
+}
+#jsdom .chat .message {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 470px;
+  height: 240px;
+  padding: 1px;
+}
+#jsdom .chat .message .line {
+  padding: 10px;
+}
+#jsdom .chat .message .line h3 {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #5f8094;
+  border-radius: 30px;
+  padding: 10px;
+  width: 60px;
+  height: 35px;
+}
+#jsdom .chat .text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+}
+#jsdom .chat .text input {
+  border-radius: 30px;
+  height: 36px;
+  margin-right: 10px;
+}
+#jsdom .chat .text .sent h3 {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  width: 75px;
+  height: 33px;
+  background-color: #5f8094;
+  border-radius: 30px;
 }/*# sourceMappingURL=style.css.map */
