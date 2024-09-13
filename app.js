@@ -1,27 +1,49 @@
 "use strict";
 $(document).ready(function () {
 
-$("#me").click(function (e) {
-    e.preventDefault();
-    function myel(myclass = "") {
-        if(!$)
-    }
-}
+    $("#me").click(function (e) {
+        e.preventDefault();
+        function myel(myclass = "") {
+            if (!$.trim($("#imputme").val()) == "") {
+                let vall = $("#inputme").val();
+                let newH3 = $('<h3> </h3>');
+                let newDiv = $('<div class="line"> </div>');
+                let bigDiv = $(`<div> ${myclass} </div>`)
+                $(newH3).append(vall)
+                $(newDiv).append(newH3)
+                $(bigDiv).append(newDiv)
+                return bigDiv
+            }
+            else {
+                return
+            }
+        }
+        $("#messageyou").append(myel())
+        $("#messageme").append(my('class = "end"'))
+        $("#inputme").val("")
+    });
 
 
-
-
-)
-
-
-
-
-
-
-
-
-
-
-
+    $("#you").click(function (e) {
+        e.preventDefault();
+        function myel(myclass = "") {
+            if (!$.trim($("#imputyou").val()) == "") {
+                let vall = $("#inputyou").val();
+                let newH3 = $('<h3> </h3>');
+                let newDiv = $('<div class="line"> </div>');
+                let bigDiv = $(`<div> ${myclass} </div>`)
+                $(newH3).append(vall)
+                $(newDiv).append(newH3)
+                $(bigDiv).append(newDiv)
+                return bigDiv
+            }
+            else {
+                return
+            }
+        }
+        $("#messageme").append(myel())
+        $("#messageyou").append(my('class = "end"'))
+        $("#inputyou").val("")
+   });
 
 });
