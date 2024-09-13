@@ -5,9 +5,9 @@ $(document).ready(function () {
         e.preventDefault();
         function myel(myclass = "") {
             if (!$.trim($("#imputme").val()) == "") {
-                let vall = $("#inputme").val();
-                let newH3 = $('<h3> </h3>');
-                let newDiv = $('<div class="line"> </div>');
+                let vall = $("#inputme").val()
+                let newH3 = $('<h3> </h3>')
+                let newDiv = $('<div class="line"> </div>')
                 let bigDiv = $(`<div> ${myclass} </div>`)
                 $(newH3).append(vall)
                 $(newDiv).append(newH3)
@@ -19,7 +19,7 @@ $(document).ready(function () {
             }
         }
         $("#messageyou").append(myel())
-        $("#messageme").append(my('class = "end"'))
+        $("#messageme").append(myel('class = "end"'))
         $("#inputme").val("")
     });
 
@@ -28,8 +28,8 @@ $(document).ready(function () {
         e.preventDefault();
         function myel(myclass = "") {
             if (!$.trim($("#imputyou").val()) == "") {
-                let vall = $("#inputyou").val();
-                let newH3 = $('<h3> </h3>');
+                let vall = $("#inputyou").val()
+                let newH3 = $('<h3> </h3>')
                 let newDiv = $('<div class="line"> </div>');
                 let bigDiv = $(`<div> ${myclass} </div>`)
                 $(newH3).append(vall)
@@ -42,8 +42,8 @@ $(document).ready(function () {
             }
         }
         $("#messageme").append(myel())
-        $("#messageyou").append(my('class = "end"'))
+        $("#messageyou").append(myel('class = "end"'))
         $("#inputyou").val("")
-   });
+    });
 
 });
