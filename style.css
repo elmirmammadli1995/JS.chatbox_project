@@ -30,7 +30,7 @@ a:hover {
 #jsdom .chat .message .line {
   padding: 10px;
 }
-#jsdom .chat .message .line h4 {
+#jsdom .chat .message .line h3 {
   font-size: 16px;
   color: #ffffff;
   text-align: center;
@@ -51,7 +51,7 @@ a:hover {
   height: 36px;
   margin-right: 10px;
 }
-#jsdom .chat .text .btn h5 {
+#jsdom .chat .text .btn h3 {
   font-size: 16px;
   color: #ffffff;
   text-align: center;
