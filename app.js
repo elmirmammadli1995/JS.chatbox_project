@@ -3,14 +3,14 @@ $(document).ready(function () {
 
     $("#me").click(function (e) {
         e.preventDefault();
-        function myel(myclass = "") {
+        function myel(myclass = 'class = "end"') {
             if (!$.trim($("#imputme").val()) == "") {
                 let vall = $("#inputme").val();
                 let newH3 = $('<h3> </h3>');
                 let newDiv = $('<div class="line"> </div>');
-                let bigDiv = $(`<div> ${myclass} </div>`);
-                $(newH3).append(vall)
-                $(newDiv).append(newH3)
+                let bigDiv = $(`<div 'class = "end"'> </div>`);
+                $(newH3).append(vall) // <h3>vall</h3> 
+                $(newDiv).append(newH3) // <div class="line"> <h3>vall</h3> </div>
                 $(bigDiv).append(newDiv)
                 return bigDiv
             }
