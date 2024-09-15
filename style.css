@@ -21,28 +21,30 @@ a:hover {
   height: 350px;
 }
 #jsdom .chat .message {
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   border-radius: 19px;
   width: 470px;
   height: 240px;
-  padding: 1px;
+  padding: 5px;
 }
 #jsdom .chat .message .line {
-  padding: 10px;
+  display: inline-block;
+  max-width: 60%;
+  padding: 10px 6px;
+  border-radius: 32px;
+  background-color: #5f8094;
+  margin-bottom: 10px;
 }
 #jsdom .chat .message .line h3 {
   font-size: 16px;
   color: #ffffff;
-  text-align: center;
-  background-color: #5f8094;
-  border-radius: 32px;
-  padding: 8px;
-  width: 60px;
-  height: 35px;
 }
 #jsdom .chat .text {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 20px 0;
 }
@@ -52,6 +54,7 @@ a:hover {
   margin-right: 10px;
 }
 #jsdom .chat .text .btn h3 {
+  cursor: pointer;
   font-size: 16px;
   color: #ffffff;
   text-align: center;
