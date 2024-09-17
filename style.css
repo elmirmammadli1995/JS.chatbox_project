@@ -30,8 +30,9 @@ a:hover {
   padding: 8px;
 }
 #jsdom .chat .message .line {
-  max-width: 50%;
-  margin-bottom: 6px;
+  display: inline-block;
+  max-width: 60%;
+  margin-bottom: 8px;
 }
 #jsdom .chat .message .line h3 {
   font-size: 16px;
@@ -55,14 +56,15 @@ a:hover {
   height: 36px;
   margin-right: 10px;
 }
-#jsdom .chat .text .btn h3 {
-  cursor: pointer;
-  font-size: 16px;
-  color: #ffffff;
-  text-align: center;
-  padding: 3px;
+#jsdom .chat .text .btn {
+  background-color: #5f8094;
+  padding: 2px;
   width: 75px;
   height: 33px;
-  background-color: #5f8094;
   border-radius: 30px;
+  cursor: pointer;
+}
+#jsdom .chat .text .btn h3 {
+  font-size: 16px;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
