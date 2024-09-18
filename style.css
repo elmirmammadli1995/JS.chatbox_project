@@ -27,6 +27,7 @@ a:hover {
   border-radius: 19px;
   width: 470px;
   height: 240px;
+  max-height: 240px;
   padding: 8px;
 }
 #jsdom .chat .message .line {

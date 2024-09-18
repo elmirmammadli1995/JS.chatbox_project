@@ -22,8 +22,8 @@ $(document).ready(function () {
         $("#messageme").append(myel('class = "end"'))
         $("#inputme").val("")
 
-        document.querySelector("#messageme").scrollTo(0,document.querySelector("#messageme").scrollHeight)
-        document.querySelector("#messageyou").scrollTo(0,document.querySelector("#messageyou").scrollHeight)
+        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
+        document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
     });
 
 
@@ -34,7 +34,7 @@ $(document).ready(function () {
                 let vall = $("#inputyou").val()
                 let newH3 = $('<h3> </h3>')
                 let newDiv = $('<div class="line"> </div>');
-                let bigDiv = $(`<div> ${myclass} </div>`)
+                let bigDiv = $(`<div ${myclass}> </div>`)
                 $(newH3).append(vall)
                 $(newDiv).append(newH3)
                 $(bigDiv).append(newDiv)
@@ -48,8 +48,8 @@ $(document).ready(function () {
         $("#messageyou").append(myel('class = "end"'))
         $("#inputyou").val("")
 
-        document.querySelector("#messageme").scrollTo(0,document.querySelector("#messageme").scrollHeight)
-        document.querySelector("#messageyou").scrollTo(0,document.querySelector("#messageyou").scrollHeight)
+        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
+        document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
     });
 
 });
