@@ -28,6 +28,7 @@ a:hover {
   width: 470px;
   height: 240px;
   padding: 8px;
+  overflow: auto;
 }
 #jsdom .chat .message .line {
   display: inline-block;
