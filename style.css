@@ -25,9 +25,11 @@ a:hover {
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 19px;
+  width: 470px;
   height: 240px;
   padding: 8px;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 #jsdom .chat .message .line {
   display: inline-block;

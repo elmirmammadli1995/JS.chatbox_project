@@ -36,7 +36,7 @@ $(document).ready(function () {
         e.preventDefault();
         function myel(myclass = "") {
             if (!$.trim($("#inputyou").val()) == "") {
-                let vall = $("#inputme").val()
+                let vall = $("#inputyou").val()
                 let newH3 = $('<h3> </h3>')
                 let newDiv = $('<div class="line"> </div>')
                 let bigDiv = $(`<div ${myclass}> </div>`)
