@@ -20,7 +20,7 @@ a:hover {
   width: 520px;
   height: 350px;
 }
-#jsdom .chat .message ::-webkit-scrollbar {
+#jsdom .chat .message::-webkit-scrollbar {
   display: none;
 }
 #jsdom .chat .message {
