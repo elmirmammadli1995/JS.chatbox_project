@@ -6,9 +6,9 @@ $(document).ready(function () {
         function myel(myclass = "") {
             if (!$.trim($("#inputme").val()) == "") {
                 let vall = $("#inputme").val()
-                let newH3 = $('<h3> </h3>')
-                let newDiv = $('<div class="line"> </div>')
-                let bigDiv = $(`<div ${myclass}> </div>`)
+                    , newH3 = $('<h3> </h3>')
+                    , newDiv = $('<div class="line"> </div>')
+                    , bigDiv = $(`<div ${myclass} > </div>`)
                 $(newH3).append(vall)
                 $(newDiv).append(newH3)
                 $(bigDiv).append(newDiv)
@@ -18,9 +18,8 @@ $(document).ready(function () {
                 return
             }
         }
-
         $("#messageyou").append(myel())
-        $("#messageme").append(myel('class="end"'))
+        $("#messageme").append(myel('class= "end"'))
         $("#inputme").val("")
 
         document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
@@ -34,9 +33,9 @@ $(document).ready(function () {
         function myel(myclass = "") {
             if (!$.trim($("#inputyou").val()) == "") {
                 let vall = $("#inputyou").val()
-                let newH3 = $('<h3> </h3>')
-                let newDiv = $('<div class="line"> </div>')
-                let bigDiv = $(`<div ${myclass}> </div>`)
+                    , newH3 = $('<h3> </h3>')
+                    , newDiv = $('<div class="line"> </div>')
+                    , bigDiv = $(`<div ${myclass}> </div>`)
                 $(newH3).append(vall)
                 $(newDiv).append(newH3)
                 $(bigDiv).append(newDiv)
@@ -48,11 +47,12 @@ $(document).ready(function () {
         }
 
         $("#messageme").append(myel())
-        $("#messageyou").append(myel('class="end"'))
+        $("#messageyou").append(myel('class= "end"'))
         $("#inputyou").val("")
 
         document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
         document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
     })
+
 
 });
