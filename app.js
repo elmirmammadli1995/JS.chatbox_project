@@ -24,6 +24,7 @@ $(document).ready(function () {
 
         document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
         document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
+
     })
 
 
