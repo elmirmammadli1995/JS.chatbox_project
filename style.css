@@ -14,7 +14,7 @@ a:hover {
   padding: 80px 0;
 }
 #jsdom .chat {
-  background-color: #f8c471;
+  background-color: #e8edff;
   border-radius: 20px;
   padding: 25px;
   width: 520px;
@@ -43,7 +43,7 @@ a:hover {
 #jsdom .chat .message .line h3 {
   font-size: 16px;
   color: #ffffff;
-  background-color: #5f8094;
+  background-color: #94a6e6;
   border-radius: 25px;
   padding: 8px;
 }
@@ -60,7 +60,7 @@ a:hover {
   margin-right: 10px;
 }
 #jsdom .chat .text .btn {
-  background-color: #5f8094;
+  background-color: #94a6e6;
   padding: 2px 0;
   width: 75px;
   height: 33px;
