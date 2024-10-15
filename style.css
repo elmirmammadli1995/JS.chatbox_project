@@ -70,4 +70,8 @@ a:hover {
 #jsdom .chat .text .btn h3 {
   font-size: 16px;
   color: #ffffff;
+}
+#jsdom .end {
+  display: flex;
+  justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */
